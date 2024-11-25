@@ -167,3 +167,75 @@ footer p {
         font-size: 1rem;
     }
 }
+
+
+/* Signup Form Section */
+#signup {
+    background-color: #ffe0b2; /* Warm peach background */
+    border-top: 4px solid #d84315; /* Bold orange border */
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#signup h2 {
+    font-size: 1.8rem;
+    color: #bf360c; /* Deep orange */
+    margin-bottom: 10px;
+}
+
+#signup p {
+    font-size: 1.1rem;
+    color: #5d4037; /* Warm brown */
+    margin-bottom: 20px;
+}
+
+#signup form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#signup label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #5d4037; /* Warm brown */
+}
+
+#signup input[type="text"],
+#signup input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: 2px solid #d84315; /* Orange border */
+    border-radius: 5px;
+    background-color: #fff8e1; /* Soft background */
+    color: #3d3d3d;
+}
+
+#signup .radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#signup .radio-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+#signup button {
+    background-color: #d84315; /* Bold orange */
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#signup button:hover {
+    background-color: #bf360c; /* Darker orange */
+}

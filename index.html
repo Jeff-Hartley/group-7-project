@@ -26,7 +26,7 @@
             <h2>Welcome to Interactive Recipes</h2>
             <p>
                 Welcome to the recipe book of your dreams! Check out our curated recipes that will make you want to cook tasty food. 
-                If you are a newcomer to the kitchen or a Michelin- or James Beard-starred showstopper, you’ll discover something thrilling here. Click on any of the recipe names below to see their full recipes.
+                If you are a newcomer to the kitchen or a Michelin- or James Beard-starred showstopper, you’ll discover something tasy and inviting. Click on any of the recipe names below to see their full recipes.
             </p>
             <ul>
                 <li><a href="recipes.html#chicken-parmesan">Chicken Parmesan</a></li>
@@ -35,8 +35,28 @@
         </section>
     </main>
 
+     <!-- Signup Form Section -->
+     <section id="signup">
+        <h2>Sign Up for Recipe Notifications</h2>
+        <p>Be the first to know when we add new recipes to our collection! Sign up below:</p>
+        <form action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+            <div class="radio-group">
+                <input type="radio" id="consent" name="consent" required>
+                <label for="consent">I consent to receiving email notifications</label>
+            </div>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
     <footer>
-        <p>&copy; 2024 Interactive Recipes. All Rights Reserved.</p>
+        <p>&copy; 2024 Interactive Recipes. Karn Sharma, Jeffery Hartley, Ilia Mchedlishvili, Samsun </p>
     </footer>
 </body>
 </html>
