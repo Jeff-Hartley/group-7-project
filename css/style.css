@@ -239,3 +239,18 @@ footer p {
 #signup button:hover {
     background-color: #bf360c; /* Darker orange */
 }
+
+body {
+    margin: 0;
+    height: 100vh;
+    position: relative;
+  }
+
+  /* Style for the logo */
+  #logo {
+    position: absolute;
+    top: 10px;  /* Distance from the top */
+    left: 10px; /* Distance from the right */
+    width: 100px; /* Adjust the logo size */
+    height: auto; /* Maintain aspect ratio */
+  }
