@@ -63,6 +63,12 @@ main {
     padding: 20px;
 }
 
+#logo {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
 /* Home Section */
 #home {
     text-align: center;
@@ -254,8 +260,8 @@ body {
   /* Style for the logo */
   #logo {
     position: absolute;
-    top: 10px;  /* Distance from the top */
-    left: 10px; /* Distance from the right */
-    width: 100px; /* Adjust the logo size */
-    height: auto; /* Maintain aspect ratio */
+    top: 20px;  /* Distance from the top */
+    left: 30px; /* Distance from the right */
+    width: 300px; /* Adjust the logo size */
+    height: 150px; /* Maintain aspect ratio */
   }
