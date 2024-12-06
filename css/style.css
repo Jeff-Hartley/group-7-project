@@ -18,19 +18,21 @@ body {
 header {
     background-color: #d32f2f; /* Rich appetizing red */
     color: #ffffff;
-    padding: 20px 10px;
+    padding: 30px 10px;
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    position: relative;
 }
 
 header h1 {
     font-size: 2.5rem;
+    margin: 10px 0;
 }
 
 header h5 {
     font-size: 1rem;
     font-weight: 300;
-    margin-top: 5px;
+    margin: 5px 0 10px;
 }
 
 /* Navbar Styling */
@@ -106,6 +108,9 @@ main {
 
 #home ul li a:hover {
     color: #ff7043; /* Bright appetizing orange */
+    text-decoration: underline;
+    font-size: 1.2rem; /* Slightly increasing font size on hover. Should add some additional pop */
+    transform: scale(1.05); /* Makes it look like link is coming up */
 }
 
 /* Recipes Section */
