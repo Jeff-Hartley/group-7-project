@@ -251,11 +251,6 @@ footer p {
     background-color: #bf360c; /* Darker orange */
 }
 
-body {
-    margin: 0;
-    height: 100vh;
-    position: relative;
-  }
 
   /* Style for the logo */
   #logo {
