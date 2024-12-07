@@ -139,6 +139,11 @@ main {
     margin-bottom: 5px;
 }
 
+.recipeImg {
+    width: 300px;
+    height: 300px;
+}
+
 /* Footer Styling */
 footer {
     background-color: #d32f2f; /* Matching header red */
