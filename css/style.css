@@ -265,3 +265,58 @@ footer p {
     width: 300px; /* Adjust the logo size */
     height: 150px; /* Maintain aspect ratio */
   }
+
+
+  /* Styling Cooking Process Chart and recipe container */
+
+.recipe {
+    margin-bottom: 40px; /* Space between each recipe */
+}
+
+/* Recipe Details */
+.recipe-details {
+    text-align: center; /* Center-align recipe content */
+    margin-bottom: 20px; /* Space between recipe details and cooking process */
+}
+
+.recipe-details img {
+    width: 100%; /* Make the image responsive */
+    max-width: 600px; /* Limit the image size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 15px 0; /* Add space around the image */
+}
+
+/* Cooking Process */
+.cooking-process {
+    margin-top: 20px; /* Add space above the cooking process */
+    text-align: left; /* Align content to the left for the table */
+}
+
+.cooking-process h4 {
+    text-align: center; /* Center the heading for the cooking process */
+    color: #d84315; /* Theme color */
+    margin-bottom: 10px;
+}
+
+/* Cooking Process Table */
+.cooking-process table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse;
+    margin: 0 auto; /* Center-align the table */
+}
+
+.cooking-process th,
+.cooking-process td {
+    border: 1px solid #d84315; /* Border color matching theme */
+    padding: 10px; /* Space inside cells */
+    text-align: left;
+}
+
+.cooking-process th {
+    background-color: #d84315; /* Header background color */
+    color: #ffffff; /* Header text color */
+}
+
+.cooking-process tbody tr:nth-child(even) {
+    background-color: #ffe0b2; /* Alternate row background for readability */
+}
