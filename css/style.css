@@ -320,3 +320,18 @@ footer p {
 .cooking-process tbody tr:nth-child(even) {
     background-color: #ffe0b2; /* Alternate row background for readability */
 }
+/* Search Bar Styling */
+#search {
+    color: #bf360c;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#search-bar {
+    width: 50%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: 2px solid #d84315;
+    border-radius: 5px; 
+}
