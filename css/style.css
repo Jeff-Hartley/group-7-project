@@ -1,3 +1,7 @@
+html {
+   scroll-behavior: smooth; 
+}
+
 /* General Reset */
 body, h1, h2, h3, h5, p, ul, li {
     margin: 0;
@@ -18,19 +22,23 @@ body {
 header {
     background-color: #d32f2f; /* Rich appetizing red */
     color: #ffffff;
-    padding: 20px 10px;
+    padding: 30px 10px;
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    position: relative;
 }
 
-header h1 {
-    font-size: 2.5rem;
+#titleHead {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3rem;
+    margin: 10px 0;
+    filter: drop-shadow(0px 3px 10px #000000);
 }
 
 header h5 {
     font-size: 1rem;
     font-weight: 300;
-    margin-top: 5px;
+    margin: 5px 0 10px;
 }
 
 /* Navbar Styling */
@@ -67,6 +75,7 @@ main {
     width: 600px;
     height: 400px;
     margin: auto;
+    border: 6px groove #2e2e2e;
 }
 
 /* Home Section */
@@ -106,11 +115,16 @@ main {
 
 #home ul li a:hover {
     color: #ff7043; /* Bright appetizing orange */
+    text-decoration: underline;
+    font-size: 1.2rem; /* Slightly increasing font size on hover. Should add some additional pop */
+    transform: scale(1.05); /* Makes it look like link is coming up */
 }
 
 /* Recipes Section */
 #recipes {
     margin-top: 40px;
+    margin: auto;
+    width: 53%
 }
 
 #recipes h2 {
@@ -251,17 +265,82 @@ footer p {
     background-color: #bf360c; /* Darker orange */
 }
 
-body {
-    margin: 0;
-    height: 100vh;
-    position: relative;
-  }
 
   /* Style for the logo */
   #logo {
-    position: absolute;
-    top: 20px;  /* Distance from the top */
-    left: 30px; /* Distance from the right */
+    
+    display: flex;
+    margin: auto;
     width: 300px; /* Adjust the logo size */
     height: 150px; /* Maintain aspect ratio */
   }
+
+
+  /* Styling Cooking Process Chart and recipe container */
+
+.recipe {
+    margin-bottom: 40px; /* Space between each recipe */
+}
+
+/* Recipe Details */
+.recipe-details {
+    text-align: center; /* Center-align recipe content */
+    margin-bottom: 20px; /* Space between recipe details and cooking process */
+}
+
+.recipe-details img {
+    width: 100%; /* Make the image responsive */
+    max-width: 600px; /* Limit the image size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 15px 0; /* Add space around the image */
+}
+
+/* Cooking Process */
+.cooking-process {
+    margin-top: 20px; /* Add space above the cooking process */
+    text-align: left; /* Align content to the left for the table */
+}
+
+.cooking-process h4 {
+    text-align: center; /* Center the heading for the cooking process */
+    color: #d84315; /* Theme color */
+    margin-bottom: 10px;
+}
+
+/* Cooking Process Table */
+.cooking-process table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse;
+    margin: 0 auto; /* Center-align the table */
+}
+
+.cooking-process th,
+.cooking-process td {
+    border: 1px solid #d84315; /* Border color matching theme */
+    padding: 10px; /* Space inside cells */
+    text-align: left;
+}
+
+.cooking-process th {
+    background-color: #d84315; /* Header background color */
+    color: #ffffff; /* Header text color */
+}
+
+.cooking-process tbody tr:nth-child(even) {
+    background-color: #ffe0b2; /* Alternate row background for readability */
+}
+/* Search Bar Styling */
+#search {
+    color: #bf360c;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#search-bar {
+    width: 50%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: 2px solid #d84315;
+    border-radius: 5px; 
+}
