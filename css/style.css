@@ -1,3 +1,7 @@
+html {
+   scroll-behavior: smooth; 
+}
+
 /* General Reset */
 body, h1, h2, h3, h5, p, ul, li {
     margin: 0;
@@ -24,9 +28,13 @@ header {
     position: relative;
 }
 
-header h1 {
-    font-size: 2.5rem;
+
+#titleHead {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3rem;
     margin: 10px 0;
+    filter: drop-shadow(0px 3px 10px #000000);
+
 }
 
 header h5 {
@@ -69,6 +77,7 @@ main {
     width: 600px;
     height: 400px;
     margin: auto;
+    border: 6px groove #2e2e2e;
 }
 
 /* Home Section */
@@ -116,6 +125,8 @@ main {
 /* Recipes Section */
 #recipes {
     margin-top: 40px;
+    margin: auto;
+    width: 53%
 }
 
 #recipes h2 {
@@ -259,9 +270,9 @@ footer p {
 
   /* Style for the logo */
   #logo {
-    position: absolute;
-    top: 20px;  /* Distance from the top */
-    left: 30px; /* Distance from the right */
+    
+    display: flex;
+    margin: auto;
     width: 300px; /* Adjust the logo size */
     height: 150px; /* Maintain aspect ratio */
   }
