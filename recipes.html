@@ -9,8 +9,10 @@
 </head>
 <body>
     <header>
-        <h1>Our Recipes</h1>
-        <!-- Navbar for easy navigation -->
+        <h1>Délicat foodbook</h1>
+        <img id="logo" src="images/logo.png" alt="Logo">
+        <h5>Our Recipes</h5>
+        <!-- Navbar -->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -18,41 +20,126 @@
             </ul>
         </nav>
     </header>
+<!-- Search Bar --> <section id="search"> 
+    <h2>Explore Our Recipes</h2>
+    <input type="text" id="search-bar" placeholder="Search by ingredient"> 
+    <h3>Enter an ingredient to filter recipes below!</h3>
+</section> 
+<main id="recipes"> 
 
-    <main id="recipes">
-        <h2>Explore Our Recipes</h2>
+     
         
         <!-- Recipe 1 -->
-        <article id="chicken-parmesan">
-            <h3>Chicken Parmesan</h3>
-            <p>A classic Italian breaded chicken dish</p><br>
-            <img class="recipeImg" src="img/chickenparm.jpg" alt="Chicken Parm" loading="lazy"><br>
-            <ul>
-                <li>Spaghetti (optional or any pasta of your choice)</li>
-                <li>Salt and Pepper</li>
-                <li>Eggs</li>
-                <li>Parmesan Cheese</li>
-                <li>Panko Bread Crumbs</li>
-                <li>Mozzarella Cheese</li> <br>
-            </ul>
-        </article>
+    <article id="chicken-parmesan" class="recipe" data-ingredients=" italian , chicken parmesan, chicken , spaghetti , salt , pepper , eggs , parmesan cheese , panko bread crumbs , mozzarella cheese ">
+            <div class="recipe-details">
+                <h3>Chicken Parmesan</h3>
+                <p>A classic Italian breaded chicken dish.</p><br>
+                <img class="recipeImg" src="img/chickenparm.jpg" alt="Chicken Parm" loading="lazy"><br>
+                <ul>
+                    <li>Spaghetti (optional or any pasta of your choice)</li>
+                    <li>Salt and Pepper</li>
+                    <li>Eggs</li>
+                    <li>Parmesan Cheese</li>
+                    <li>Panko Bread Crumbs</li>
+                    <li>Mozzarella Cheese</li> <br>
+                </ul>
+            </div>
+
+            <!-- Cooking Process Chart-->
+            <div class="cooking-process">
+                <h4>Cooking Process</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Step</th>
+                            <th>Action</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Prepare the chicken (season and bread)</td>
+                            <td>10 mins</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Fry the chicken</td>
+                            <td>15 mins</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Prepare the sauce</td>
+                            <td>10 mins</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Bake with cheese</td>
+                            <td>20 mins</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+    </article>
 
         <!-- Recipe 2 -->
-        <article id="chocolate-cake">
-            <h3>Chocolate Cake</h3>
-            <p>A rich and moist chocolate cake perfect for dessert lovers.</p><br>
-            <img class="recipeImg" src="img/chocycake.jpg" alt="Chocolate Cake" loading="lazy"><br>
-            <ul>
-                <li>Flour</li>
-                <li>Cocoa Powder</li>
-                <li>Sugar</li>
-                <li>Eggs</li>
-                <li>Butter</li><br>
-            </ul>
+        <article id="chocolate-cake" class="recipe" data-ingredients=" chocolate cake , flour , cocoa powder , sugar , eggs , butter ">
+            <div class="recipe-details">
+                <h3>Chocolate Cake</h3>
+                <p>A rich and moist chocolate cake perfect for dessert lovers.</p><br>
+                <img class="recipeImg" src="img/chocycake.jpg" alt="Chocolate Cake" loading="lazy"><br>
+                <ul>
+                    <li>Flour</li>
+                    <li>Cocoa Powder</li>
+                    <li>Sugar</li>
+                    <li>Eggs</li>
+                    <li>Butter</li><br>
+                </ul>
+            </div>
+            <!-- Cooking Process Chart-->
+            <div class="cooking-process">
+                <h4>Cooking Process</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Step</th>
+                            <th>Action</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Preheat the oven to 350°F (175°C)</td>
+                            <td>10 mins</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Mix the dry ingredients</td>
+                            <td>5 mins</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Add wet ingredients and mix</td>
+                            <td>10 mins</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Pour batter into baking pan</td>
+                            <td>5 mins</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Bake in the oven</td>
+                            <td>30 mins</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </article>
 
         <!-- Recipe 3 -->
-        <article id="birria-tacos">
+        <article id="birria-tacos" class="recipe" data-ingredients=" birria tacos , tortilla , beef , cheese , onions , salsa , tomatoes , garlic , dried peppers , mexican oregano , mexican cinnamon , cilantro , lime , beef broth ">        <div class="recipe-details">
             <h3>Birria Tacos</h3>
             <p>A delicious, deep-fried alternative to the classic taco.</p><br>
             <img class="recipeImg" src="img/birriatacos.jpeg" alt="Birria Tacos" loading="lazy"><br>
@@ -71,13 +158,55 @@
                 <li>Lime</li>
                 <li>Beef Broth</li><br>
             </ul>
-        </article>
+        </div>
+        <!-- Cooking Process -->
+         <div class="cooking-process">
+            <h4>Cooking Process</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Step</th>
+                        <th>Action</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Prepare the marinade with dried peppers and spices</td>
+                        <td>15 mins</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Marinate the beef</td>
+                        <td>2 hours</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Cook the beef in broth</td>
+                        <td>3 hours</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Shred the beef</td>
+                        <td>10 mins</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Assemble and fry the tacos</td>
+                        <td>15 mins</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </article>
 
         <!-- Recipe 4 -->
-        <article id="chicken-fried-rice">
-            <h3>Chicken Friend Rice</h3>
-            <p>A simple, yet delicious Asian delicacy</p><br>
-            <img class="recipeImg" src="img/chickenrice.jpg" alt="Chicken Fried Rice" loading="lazy"><br>
+        <article id="chicken-fried-rice" class="recipe" data-ingredients=" chinese, japanese , asian ,chicken fried rice , rice , chicken , carrots , peas , onions , garlic , eggs , soy sauce , sesame oil , ginger , rice vinegar ">
+            <div class="recipe-details">
+                <h3>Chicken Friend Rice</h3>
+                <p>A simple, yet delicious Asian delicacy.</p><br>
+                <img class="recipeImg" src="img/chickenrice.jpg" alt="Chicken Fried Rice" loading="lazy"><br>
             <ul>
                 <li>Rice</li>
                 <li>Chicken</li>
@@ -91,7 +220,49 @@
                 <li>Ginger</li>
                 <li>Rice Vinegar</li>
             </ul>
-        </article>
+        </div>
+        <!-- Cooking Process-->
+        <div class="cooking-process">
+            <h4>Cooking Process</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Step</th>
+                        <th>Action</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Cook and cool the rice</td>
+                        <td>30 mins</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Cook the chicken</td>
+                        <td>10 mins</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Sauté the vegetables</td>
+                        <td>5 mins</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Scramble the eggs</td>
+                        <td>5 mins</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Combine everything and season</td>
+                        <td>5 mins</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </article>
 
     </main>
         <!-- Of course we will be adding more recipes later on, just put some placeholders for now. Unless we want to keep these -->

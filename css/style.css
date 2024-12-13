@@ -28,11 +28,13 @@ header {
     position: relative;
 }
 
+
 #titleHead {
     font-family: 'Brush Script MT', cursive;
     font-size: 3rem;
     margin: 10px 0;
     filter: drop-shadow(0px 3px 10px #000000);
+
 }
 
 header h5 {
