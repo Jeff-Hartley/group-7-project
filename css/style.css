@@ -126,7 +126,7 @@ main {
 #recipes {
     margin-top: 40px;
     margin: auto;
-    width: 53%
+    width: 70%
 }
 
 #recipes h2 {
@@ -317,7 +317,7 @@ footer p {
 
 /* Cooking Process Table */
 .cooking-process table {
-    width: 100%; /* Full width table */
+    width: 75%; /* Full width table */
     border-collapse: collapse;
     margin: 0 auto; /* Center-align the table */
 }

@@ -48,8 +48,8 @@ document.addEventListener('DOMContentLoaded', function () {
         formResponse.textContent = message;
         formResponse.style.color = type === 'success' ? 'green' : 'red';
     }
-  });
-=======
+ 
+    
   document.getElementById('search-bar').addEventListener('input', function (event) {
       const searchTerm = event.target.value.toLowerCase();
       const recipes = document.querySelectorAll('.recipe');
@@ -99,4 +99,3 @@ document.addEventListener('DOMContentLoaded', function () {
       formResponse.style.color = type === 'success' ? 'green' : 'red';
   }
 });
-
