@@ -6,11 +6,14 @@
     <title>Délicat Foodbook - Our Recipes</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="script.js" defer></script>
+    
 </head>
 <body>
     <header>
-        <h1>Délicat foodbook</h1>
-        <img id="logo" src="images/logo.png" alt="Logo">
+        <h1>Délicat Foodbook</h1>
+        <a href="recipes.html">
+            <img id="logo" src="images/logo.png" alt="Logo">
+            </a>
         <h5>Our Recipes</h5>
         <!-- Navbar -->
         <nav>
@@ -20,32 +23,34 @@
             </ul>
         </nav>
     </header>
-<!-- Search Bar --> <section id="search"> 
-    <h2>Explore Our Recipes</h2>
-    <input type="text" id="search-bar" placeholder="Search by ingredient"> 
-    <h3>Enter an ingredient to filter recipes below!</h3>
-</section> 
-<main id="recipes"> 
 
-     
-        
+    <!-- Search Bar -->
+    <section id="search"> 
+        <h2>Explore Our Recipes</h2>
+        <input type="text" id="search-bar" placeholder="Search by ingredient"> 
+        <h3>Enter an ingredient to filter recipes below!</h3>
+    </section> 
+
+    <main id="recipes"> 
+
         <!-- Recipe 1 -->
-    <article id="chicken-parmesan" class="recipe" data-ingredients=" italian , dinner , lunch , chicken parmesan, chicken , spaghetti , salt , pepper , eggs , parmesan cheese , panko bread crumbs , mozzarella cheese ">
+        <article id="chicken-parmesan" class="recipe" data-ingredients=" italian , dinner , lunch , chicken parmesan , chicken , spaghetti , salt , pepper , eggs , parmesan cheese , panko bread crumbs , mozzarella cheese ">
             <div class="recipe-details">
                 <h3>Chicken Parmesan</h3>
                 <p>A classic Italian breaded chicken dish.</p><br>
                 <img class="recipeImg" src="img/chickenparm.jpg" alt="Chicken Parm" loading="lazy"><br>
                 <ul>
-                    <li>Spaghetti (optional or any pasta of your choice)</li>
-                    <li>Salt and Pepper</li>
-                    <li>Eggs</li>
-                    <li>Parmesan Cheese</li>
-                    <li>Panko Bread Crumbs</li>
-                    <li>Mozzarella Cheese</li> <br>
+                    <li>250g Spaghetti (optional or any pasta of your choice)</li>
+                    <li>1 tsp Salt</li>
+                    <li>1/2 tsp Pepper</li>
+                    <li>2 Eggs</li>
+                    <li>100g Parmesan Cheese</li>
+                    <li>150g Panko Bread Crumbs</li>
+                    <li>200g Mozzarella Cheese</li><br>
                 </ul>
             </div>
 
-            <!-- Cooking Process Chart-->
+            <!-- Cooking Process Chart -->
             <div class="cooking-process">
                 <h4>Cooking Process</h4>
                 <table>
@@ -79,8 +84,8 @@
                         </tr>
                     </tbody>
                 </table>
-        </div>
-    </article>
+            </div>
+        </article>
 
         <!-- Recipe 2 -->
         <article id="chocolate-cake" class="recipe" data-ingredients=" chocolate cake , dinner , lunch , flour , cocoa powder , sugar , eggs , butter ">
@@ -89,14 +94,15 @@
                 <p>A rich and moist chocolate cake perfect for dessert lovers.</p><br>
                 <img class="recipeImg" src="img/chocycake.jpg" alt="Chocolate Cake" loading="lazy"><br>
                 <ul>
-                    <li>Flour</li>
-                    <li>Cocoa Powder</li>
-                    <li>Sugar</li>
-                    <li>Eggs</li>
-                    <li>Butter</li><br>
+                    <li>200g Flour</li>
+                    <li>50g Cocoa Powder</li>
+                    <li>150g Sugar</li>
+                    <li>3 Eggs</li>
+                    <li>100g Butter</li><br>
                 </ul>
             </div>
-            <!-- Cooking Process Chart-->
+
+            <!-- Cooking Process Chart -->
             <div class="cooking-process">
                 <h4>Cooking Process</h4>
                 <table>
@@ -139,135 +145,137 @@
         </article>
 
         <!-- Recipe 3 -->
-        <article id="birria-tacos" class="recipe" data-ingredients=" birria tacos , dinner , lunch , tortilla , beef , cheese , onions , salsa , tomatoes , garlic , dried peppers , mexican oregano , mexican cinnamon , cilantro , lime , beef broth ">        <div class="recipe-details">
-            <h3>Birria Tacos</h3>
-            <p>A delicious, deep-fried alternative to the classic taco.</p><br>
-            <img class="recipeImg" src="img/birriatacos.jpeg" alt="Birria Tacos" loading="lazy"><br>
-            <ul>
-                <li>Tortilla</li>
-                <li>Beef</li>
-                <li>Cheese</li>
-                <li>Onions</li>
-                <li>Salsa</li>
-                <li>Tomatoes</li>
-                <li>Garlic</li>
-                <li>Dried Peppers</li>
-                <li>Mexican Oregano</li>
-                <li>Mexican Cinnamon</li>
-                <li>Cilantro</li>
-                <li>Lime</li>
-                <li>Beef Broth</li><br>
-            </ul>
-        </div>
-        <!-- Cooking Process -->
-         <div class="cooking-process">
-            <h4>Cooking Process</h4>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Step</th>
-                        <th>Action</th>
-                        <th>Time</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Prepare the marinade with dried peppers and spices</td>
-                        <td>15 mins</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Marinate the beef</td>
-                        <td>2 hours</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Cook the beef in broth</td>
-                        <td>3 hours</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Shred the beef</td>
-                        <td>10 mins</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Assemble and fry the tacos</td>
-                        <td>15 mins</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </article>
+        <article id="birria-tacos" class="recipe" data-ingredients=" birria tacos , dinner , lunch , tortilla , beef , cheese , onions , salsa , tomatoes , garlic , dried peppers , mexican oregano , mexican cinnamon , cilantro , lime , beef broth ">
+            <div class="recipe-details">
+                <h3>Birria Tacos</h3>
+                <p>A delicious, deep-fried alternative to the classic taco.</p><br>
+                <img class="recipeImg" src="img/birriatacos.jpeg" alt="Birria Tacos" loading="lazy"><br>
+                <ul>
+                    <li>12 Tortillas</li>
+                    <li>500g Beef</li>
+                    <li>200g Cheese</li>
+                    <li>100g Onions (chopped)</li>
+                    <li>150g Salsa</li>
+                    <li>3 Tomatoes</li>
+                    <li>4 Garlic Cloves</li>
+                    <li>5 Dried Peppers</li>
+                    <li>1 tsp Mexican Oregano</li>
+                    <li>1 stick Mexican Cinnamon</li>
+                    <li>50g Cilantro</li>
+                    <li>2 Limes</li>
+                    <li>500ml Beef Broth</li><br>
+                </ul>
+            </div>
+
+            <!-- Cooking Process -->
+            <div class="cooking-process">
+                <h4>Cooking Process</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Step</th>
+                            <th>Action</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Prepare the marinade with dried peppers and spices</td>
+                            <td>15 mins</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Marinate the beef</td>
+                            <td>2 hours</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Cook the beef in broth</td>
+                            <td>3 hours</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Shred the beef</td>
+                            <td>10 mins</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Assemble and fry the tacos</td>
+                            <td>15 mins</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
 
         <!-- Recipe 4 -->
-        <article id="chicken-fried-rice" class="recipe" data-ingredients=" chinese, japanese , dinner , lunch , asian ,chicken fried rice , rice , chicken , carrots , peas , onions , garlic , eggs , soy sauce , sesame oil , ginger , rice vinegar ">
+        <article id="chicken-fried-rice" class="recipe" data-ingredients=" chinese , japanese , dinner , lunch , asian , chicken fried rice , rice , chicken , carrots , peas , onions , garlic , eggs , soy sauce , sesame oil , ginger , rice vinegar ">
             <div class="recipe-details">
-                <h3>Chicken Friend Rice</h3>
+                <h3>Chicken Fried Rice</h3>
                 <p>A simple, yet delicious Asian delicacy.</p><br>
                 <img class="recipeImg" src="img/chickenrice.jpg" alt="Chicken Fried Rice" loading="lazy"><br>
-            <ul>
-                <li>Rice</li>
-                <li>Chicken</li>
-                <li>Carrots</li>
-                <li>Peas</li>
-                <li>Onions</li>
-                <li>Garlic</li>
-                <li>Eggs</li>
-                <li>Soy Sauce</li>
-                <li>Sesame Oil</li>
-                <li>Ginger</li>
-                <li>Rice Vinegar</li>
-            </ul>
-        </div>
-        <!-- Cooking Process-->
-        <div class="cooking-process">
-            <h4>Cooking Process</h4>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Step</th>
-                        <th>Action</th>
-                        <th>Time</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Cook and cool the rice</td>
-                        <td>30 mins</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Cook the chicken</td>
-                        <td>10 mins</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Sauté the vegetables</td>
-                        <td>5 mins</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Scramble the eggs</td>
-                        <td>5 mins</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Combine everything and season</td>
-                        <td>5 mins</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+                <ul>
+                    <li>200g Rice</li>
+                    <li>250g Chicken</li>
+                    <li>100g Carrots</li>
+                    <li>100g Peas</li>
+                    <li>100g Onions</li>
+                    <li>2 Garlic Cloves</li>
+                    <li>3 Eggs</li>
+                    <li>50ml Soy Sauce</li>
+                    <li>20ml Sesame Oil</li>
+                    <li>1 tsp Ginger (grated)</li>
+                    <li>10ml Rice Vinegar</li>
+                </ul>
+            </div>
 
-    </article>
+            <!-- Cooking Process -->
+            <div class="cooking-process">
+                <h4>Cooking Process</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Step</th>
+                            <th>Action</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Cook and cool the rice</td>
+                            <td>30 mins</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Cook the chicken</td>
+                            <td>10 mins</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Sauté the vegetables</td>
+                            <td>5 mins</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Scramble the eggs</td>
+                            <td>5 mins</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Combine everything and season</td>
+                            <td>5 mins</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
 
     </main>
-        <!-- Of course we will be adding more recipes later on, just put some placeholders for now. Unless we want to keep these -->
+
     <footer>
-        <p>&copy; 2024 Délicat Foodbook. Karn Sharma, Jeffery Hartley, Ilia Mchedlishvili, Samsun </p>
+        <p>&copy; 2024 Délicat Foodbook. Karn Sharma, Jeffery Hartley, Ilia Mchedlishvili, Samsun</p>
     </footer>
 </body>
 </html>

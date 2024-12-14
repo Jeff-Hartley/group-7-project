@@ -296,6 +296,12 @@ footer p {
     height: auto; /* Maintain aspect ratio */
     margin: 15px 0; /* Add space around the image */
 }
+.recipe-details > ul {
+    list-style-type: none;
+    max-width: 300px; 
+    margin: 0 auto;   /* Center-align the list */
+}
+
 
 /* Cooking Process */
 .cooking-process {
@@ -359,3 +365,4 @@ footer p {
         max-width: 100%; 
     }
 }
+
