@@ -28,11 +28,13 @@ header {
     position: relative;
 }
 
+
 #titleHead {
     font-family: 'Brush Script MT', cursive;
     font-size: 3rem;
     margin: 10px 0;
     filter: drop-shadow(0px 3px 10px #000000);
+
 }
 
 header h5 {
@@ -343,4 +345,17 @@ footer p {
     font-size: 1.2rem;
     border: 2px solid #d84315;
     border-radius: 5px; 
+}
+#cover-photo {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+    #cover-photo {
+        max-width: 100%; 
+    }
 }
