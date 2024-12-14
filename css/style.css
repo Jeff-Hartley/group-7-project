@@ -193,6 +193,14 @@ footer p {
     #home p {
         font-size: 1rem;
     }
+
+    #recipes {
+        width: 90%
+    }
+
+    .cooking-process table {
+        width: 80%;
+    }
 }
 
 
