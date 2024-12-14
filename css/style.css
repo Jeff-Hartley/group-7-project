@@ -346,3 +346,16 @@ footer p {
     border: 2px solid #d84315;
     border-radius: 5px; 
 }
+#cover-photo {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+    #cover-photo {
+        max-width: 100%; 
+    }
+}
